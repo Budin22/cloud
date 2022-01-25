@@ -118,3 +118,72 @@ body {
     border-radius: 6px;
     border: none;
 }
+.card-box {
+    background-image: url(image/first-card.png);
+    background-size: 350px 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 250px;
+}
+.second-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 64px;
+}
+.features {
+    padding: 63px 0 229px 0;
+}
+.features-link {
+    font-weight: 700;
+    line-height: 18px;
+    color: #ED4C5C;
+    text-decoration: none;
+}
+.features-link:hover {
+    color: royalblue;
+}
+.feature-card {
+    max-width: 293px;
+    padding: 33px 32px 25px 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+.features-sub-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-bottom: 16px;
+}
+.features-text-body {
+    margin-bottom: 26px;
+}
+.features-text {
+    line-height: 18px;
+    color: #101010;
+}
+.card-box {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+}
+.card-box:nth-last-of-type(1) {
+    margin-right: 0;
+}
+.feature-card {
+    position: absolute;
+    left: 29px;
+    top: 157px;
+}
+.second {
+    background-image: url(image/second-card.png);
+}
+.third {
+    background-image: url(image/third-card.png);
+}
