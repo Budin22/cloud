@@ -3,5 +3,118 @@
 }
 body {
     font-family: 'Lato', sans-serif;
-    font-size: 400;
+    font-size: 12px;
+    font-weight: 400;
+}
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clearfix::after {
+    clear: both;
+}
+.first-section {
+    text-align: center;
+    background-image: url(image/first-screen.jpg);
+    background-size: 1440px 782px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1440px;
+    padding-top: 33px;
+}
+.logo-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    float: left;
+    background-image: url(image/cloud.png);
+    background-size: 25px 18px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    margin-top: 12px;
+}
+.logo-link:hover {
+    color: royalblue;
+}
+.navigation-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.navigation-link:hover {
+    color: royalblue;
+}
+.navigation-item {
+    display: inline-block;
+    margin-right: 22px;
+}
+.navigation {
+    text-align: center;
+    display: inline-block;
+    max-width: 800px;
+    padding-top: 12px;
+}
+
+.button-login {
+    float: right;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 10.5px 27.5px;
+    background-color: transparent;
+}
+.button-login:hover {
+    background-color: royalblue;
+}
+.budget-title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 39px;
+}
+.budget-article {
+    padding: 195px 0 187px 0;
+    text-align: center;
+}
+.budget-text {
+    width: 540px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+.text-body {
+    margin-bottom: 55px;
+}
+.button-singup {
+    padding: 17px 52.5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #ED4C5C;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
 }
