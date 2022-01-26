@@ -118,6 +118,10 @@ body {
     border-radius: 6px;
     border: none;
 }
+.button-singup:hover {
+    background-color: royalblue;
+    color: #FFFFFF;
+}
 .card-box {
     background-image: url(image/first-card.png);
     background-size: 350px 250px;
@@ -136,6 +140,7 @@ body {
 }
 .features {
     padding: 63px 0 229px 0;
+    background-color: #FAFAFA;
 }
 .features-link {
     font-weight: 700;
@@ -186,4 +191,85 @@ body {
 }
 .third {
     background-image: url(image/third-card.png);
+}
+.technology-text {
+    line-height: 18px;
+    color: #000000;
+}
+.technology-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+}
+.technology-sub-title {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120px;
+    color: rgba(16, 16, 16, 0.08);
+    margin-bottom: 19px;
+}
+.technology-article {
+    display: inline-block;
+    margin-right: 30px;
+    max-width: 255px;
+    text-align: center;
+    position: relative;
+    padding: 0 30px 19px 34px;
+}
+.technology-article:nth-last-of-type(1) {
+    margin-right: 0;
+}
+.technology {
+    padding: 64px 0 104px 0;
+}
+.technology-main-title {
+    margin-bottom: 53px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+}
+.storage {
+    background-image: url(image/storage.png);
+    background-size: 80px 80px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 87px;
+    top: 59px;
+}
+.secure {
+    background-image: url(image/secure.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 60px;
+    position: absolute;
+    left: 103px;
+    top: 68px;
+}
+.pdf {
+    background-image: url(image/pdf.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 54px;
+    position: absolute;
+    left: 104px;
+    top: 69px;
+}
+.csv {
+    background-image: url(image/csv.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 47px;
+    height: 53px;
+    position: absolute;
+    left: 104px;
+    top: 71px;
 }
