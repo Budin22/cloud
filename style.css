@@ -15,6 +15,9 @@ body {
     clear: both;
 }
 .first-section {
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+}
+.first-screen {
     text-align: center;
     background-image: url(image/first-screen.jpg);
     background-size: 1440px 782px;
@@ -22,8 +25,6 @@ body {
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
-    max-width: 1440px;
-    padding-top: 33px;
 }
 .logo-link {
     text-decoration: none;
@@ -64,7 +65,6 @@ body {
     max-width: 800px;
     padding-top: 12px;
 }
-
 .button-login {
     float: right;
     display: inline-block;
@@ -368,4 +368,12 @@ body {
     background-color: royalblue;
 }.tw-link:hover {
     background-color: royalblue;
+}
+.copyright {
+    line-height: 18px;
+    color: #101010;
+}
+.footer-copyright {
+    padding: 0 0 83px 0;
+    background-color: #FAFAFA;
 }
