@@ -273,3 +273,99 @@ body {
     left: 104px;
     top: 71px;
 }
+.additional {
+    background-color: #FAFAFA;
+    padding: 85px 0 109px 0;
+}
+.additional-text {
+    line-height: 18px;
+    color: #101010;
+    max-width: 170px;
+}
+.additional-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-bottom: 33px;
+}
+.services-link {
+    text-decoration: none;
+    line-height: 18px;
+    color: #000000;
+}
+.additional-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding-right: 20px;
+}
+.additional-item:nth-last-of-type(1) {
+    margin-right: 0;
+}
+.visa-support {
+    background-image: url(image/visa.png);
+    background-size: 216px 31px;
+    background-repeat: no-repeat;
+    width: 216px;
+    height: 31px;
+}
+.social-item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+.social-item:nth-last-of-type(1) {
+    margin-right: 0;
+}
+
+.fb-link {
+    background-image: url(image/fb.png);
+    background-size: 7px 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 7px;
+    height: 12px;
+    display: block;
+}
+.in-link {
+    background-image: url(image/in.png);
+    background-size: 14px 14px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    display: block;
+}
+.tw-link {
+    background-image: url(image/tw.png);
+    background-size: 13px 11px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 11px;
+    display: block;
+}
+.social-list {
+    height: 14px;
+}
+.visa-support {
+    margin-top: 5px;
+}
+.services-link:hover {
+    color: royalblue;
+}
+.marg {
+    margin: 5px 0 7px 0;
+}
+.social-list {
+    margin-top: 17px;
+}
+.fb-link:hover {
+    background-color: royalblue;
+}
+.in-link:hover {
+    background-color: royalblue;
+}.tw-link:hover {
+    background-color: royalblue;
+}
